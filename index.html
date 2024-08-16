@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Log In | XO Game</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body class="login">
+        <div class="box">
+            <h1>Start XO Game</h1>
+            <form>
+                <div class="player-number">
+                    <input type="radio" name="players-number" id="bot" value="bot" checked>
+                    <label for="bot">VS Bot</label>
+                    <input type="radio" name="players-number" id="onevone" value="other">
+                    <label for="onevone">1 VS 1</label>
+                </div>
+                <div class="player-name">
+                    <div class="first-player">
+                        <input type="text" class="player-one" placeholder="First Player Name">
+                    </div>
+                    <div class="second-player">
+                        <input type="text" class="player-two dis" placeholder="Second Player Name">
+                    </div>
+                </div>
+                <div class="submit">
+                    <button class="submit-button" type="button">Start Game</button>
+                </div>
+            </form>
+        </div>
+        <script src="./login.js"></script>
+    </body>
+</html>
